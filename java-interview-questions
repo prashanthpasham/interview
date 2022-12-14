@@ -22,7 +22,7 @@ Binary Tree in HashMap change)?
 21.Why do we need wait(),notify() methods in Object class?
 22.Life cycle of Thread?
 23.Difference between Thread.sleep vs wait()?
-24.Do can we make Thread Safe in java(i.e:Synchronized, Volatile)?
+24.Explain Thread Safe in java(i.e:Synchronized, Volatile)?
 25.yield(),join() methods in Thread class and explain about it?
 26.Which one do you prefer  Thread or  Runnable in Mutithreading?
 27.How to use Custom class(ex:Employee) as key in hashmap?
