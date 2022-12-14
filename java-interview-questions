@@ -62,5 +62,5 @@ demo.test(); // It will not throw null pointer exception because test() is stati
 37.Inheritance with access modifiers in java(public << protected << default << private)?
 ex:Parent p = new Child();
 How it will works?
-
+38.Access nodifier allowed at class level in java?(ans: default,public and abstract,final modifiers are also allowed).
 
