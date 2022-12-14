@@ -11,7 +11,7 @@ Binary Tree in HashMap change)?
 10.what is Optional class and difference between Optional.of vs Optional.ofNullable and which one to prefer?
 11.Difference between String vs StringBuffer vs StringBuilder?
 12.Explain Collection Hierarchy and what is difference between Collection and Collections?
-13.ArrayList vs LinkedList ,which one is more prefered in java and why?
+13.ArrayList vs LinkedList which one is more prefered in java and why?
 14.Internal working of HashMap,HashSet,ConcurrentHashMap,HashTable in Collections?
 15.Explain about TreeSet and TreeMap?
 16.FailFast and FailSafe iterations in java?
