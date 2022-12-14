@@ -1,0 +1,66 @@
+1.Is java passby value or passby reference?
+2.What are oops concepts and explain briefly about it?
+3.Why do we need encapsulation in java?
+4.what is shallow and deep cloning in java and how it can be done?
+5.What is immutable class and how can we create immutable class in java?
+6.what is comparable and comparator,when to use them?
+7.How to create singleton class in java?
+8.Explain design patterns(creational,structural,behavioral) in java and where you have implemented in current project?
+9.What are java8 features and explain briefly about each feature(Functional Interface,Streams,DateTimeApi,Lambda Expression,static and default methods in interface,
+Binary Tree in HashMap change)?
+10.what is Optional class and difference between Optional.of vs Optional.ofNullable and which one to prefer?
+11.Difference between String vs StringBuffer vs StringBuilder?
+12.Explain Collection Hierarchy and what is difference between Collection and Collections?
+13.ArrayList vs LinkedList ,which one is more prefered in java and why?
+14.Internal working of HashMap,HashSet,ConcurrentHashMap,HashTable in Collections?
+15.Explain about TreeSet and TreeMap?
+16.FailFast and FailSafe iterations in java?
+17.Explain about ArrayList vs CopyOnWriteArrayList?
+18.What is HashCollision in Map and how map deals with it?
+19.What is == and equals() method in java?
+20.What is hashCode and how it will impact in map?
+21.Why do we need wait(),notify() methods in Object class?
+22.Life cycle of Thread?
+23.Difference between Thread.sleep vs wait()?
+24.Do can we make Thread Safe in java(i.e:Synchronized, Volatile)?
+25.yield(),join() methods in Thread class and explain about it?
+26.Which one do you prefer  Thread or  Runnable in Mutithreading?
+27.How to use Custom class(ex:Employee) as key in hashmap?
+28.Given array ex:[1,100,9,100,25,98] perform sorting in descending order (with streams and without streams)?
+29.Find first repeated character in given string(ex:geeksforgeeks)?
+30.Find frequency count of string characters (ex:geeks) (o/p:{g=1,e=2,k=1,s=1})?
+31.Calculate average salaries of employees(with streams and without streams)?
+32.Given array ex:[1,100,9,100,25,98] filter array with value>90 and after filtering add 1 to each value and print the array using streams?
+33.print odd and even numbers one after another using thread concept?
+34.factors of given number?
+35.Write a method which accepts nth highest number and return that value from array(Hint :  array need to be sorted and duplicate to be removed from array)
+ (ex: [8,100,98,23,1], i/p:2,o/p:98)?
+
+36.public class Demo
+{
+
+public static void test(){
+   Sysout("static test");
+}
+ public void print(Object obj){
+  Sysout("object called!");
+}
+public void print(String obj){
+  Sysout("string called!");
+}
+main(..){
+  Demo d = new Demo();
+d.print(null);
+//o/p:String print method called!
+
+Demo demo =null;
+demo.test(); // It will not throw null pointer exception because test() is static but for instance method throws nullpointerexception.
+
+}
+}
+
+37.Inheritance with access modifiers in java(public << protected << default << private)?
+ex:Parent p = new Child();
+How it will works?
+
+
