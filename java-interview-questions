@@ -63,4 +63,4 @@ demo.test(); // It will not throw null pointer exception because test() is stati
 ex:Parent p = new Child();
 How it will works?
 38.Access nodifier allowed at class level in java?(ans: default,public and abstract,final modifiers are also allowed).
-
+39.cohesion and coupling in java?
