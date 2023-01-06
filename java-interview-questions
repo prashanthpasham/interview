@@ -72,3 +72,9 @@ How it will works?
 		  return 0;
 
 		  }).collect(Collectors.toList());
+41.Given amount = 190000 print in USA currency format?
+Locale locale = new Locale("en","US");
+	NumberFormat nf = NumberFormat.getCurrencyInstance(locale);
+	System.out.println(nf.format(190000));
+	o/p:$190,000
+		  
