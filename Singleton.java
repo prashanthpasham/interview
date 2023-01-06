@@ -1,4 +1,3 @@
-package com.mq;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
@@ -32,14 +31,16 @@ public final class Singleton implements Cloneable, Serializable {
 
 		try {
 			Singleton ut = Singleton.getInstance();
-			Singleton ut2 = (Singleton) ut.clone();
+			try {
+				Singleton ut2 = (Singleton) ut.clone();
+			} catch (CloneNotSupportedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			Singleton dt = ut.getClass().newInstance();
 			System.out.println(ut == dt);
-			System.out.println(ut.hashCode +"::"+dt.hashCode());
+			System.out.println(ut.hashCode() + "::" + dt.hashCode());
 
-		} catch (CloneNotSupportedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		} catch (InstantiationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
