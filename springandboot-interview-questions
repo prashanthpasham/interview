@@ -9,6 +9,14 @@ what does @SpringBootApplication do internally ?
 how to exclude autoconfiguration classes and how do you create custom autoConfiguration classes for Datasource and TransactionManager?
 Can we override or replace the Embedded tomcat server in Spring Boot?
 How to pass optional and mandatory arguments in springboot?
-
-
+Difference between @Controller and @RestController?
+Explain Spring annotations?
+what is dependency injection and explain types of injection?
+what is circular dependency injection and how it overcome?
+I have interface with more than one implementation classes ,how to autoconfigure it?
+What do you mean by IoC (Inversion of Control) Container?
+What are the bean scopes available in Spring?
+Explain Bean life cycle in Spring Bean Factory Container?
+Difference between BeanFactory and ApplicationContext?
+What is @Transactional and explain it with isolation and propagation?
 
