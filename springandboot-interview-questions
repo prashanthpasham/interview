@@ -1,0 +1,14 @@
+How springboot different from Spring application?
+Explain Features of Spring Boot and how auto configuration works?
+How do you create your own AutoConfiguration Classes in SpringBoot?
+In application.properties file if we set server.port=0, what does springboot do?
+What is SpringBoot Actuator,explain endpoints in it?
+what is spring profiles?
+how to load external properties file in springboot?
+what does @SpringBootApplication do internally ?
+how to exclude autoconfiguration classes and how do you create custom autoConfiguration classes for Datasource and TransactionManager?
+Can we override or replace the Embedded tomcat server in Spring Boot?
+How to pass optional and mandatory arguments in springboot?
+
+
+
