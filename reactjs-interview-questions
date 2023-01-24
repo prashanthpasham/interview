@@ -19,4 +19,15 @@ difference between var vs let vs const?
 what is hoisting in  js?
 what is closure in js?
 what is Event Loop mechanism in js?
-
+explain about call vs apply vs bind?
+difference blw null vs undefined?
+diff blw == and === operator?
+how to perform shallow and deep cloning on objects/arrays in js?
+what is spread operator(...) and rest operator in js?
+explain about typeof operator?
+explain about Coercion in js?
+explain about passbyvalue and passbyreference?
+explain about immediately invoked/self invoking functions?
+explain about currying in js?
+explain about prototypes in js?
+difference between splice and slice?
