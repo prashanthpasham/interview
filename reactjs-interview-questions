@@ -11,6 +11,7 @@ How to pass data from child component to parent component?
 Explain about synthetic events in reactjs?
 why is there a need for using keys in lists?
 what are props in reactjs?
+what are callback functions?
 how to call api from reactjs(axios/fetch)?
 what is redux and explain redux flow?
 what is react context api?
