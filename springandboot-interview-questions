@@ -19,4 +19,5 @@ What are the bean scopes available in Spring?
 Explain Bean life cycle in Spring Bean Factory Container?
 Difference between BeanFactory and ApplicationContext?
 What is @Transactional and explain it with isolation and propagation?
+how to consume api using RestTemplate?
 
