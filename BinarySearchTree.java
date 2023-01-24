@@ -147,4 +147,26 @@ public class BinarySearchTree {
 		
 
 	}
+	
+	public static boolean checkBalanceTree(Node root, int rootData) {
+
+		if (root.left != null || root.right != null) {
+			// root node
+			rootData = root.data;
+			if (root.left != null) {
+				if (root.left.data < rootData)
+					return checkBalanceTree(root.left, rootData);
+				else
+					return false;
+			} else if (root.right != null) {
+				if (root.right.data > rootData)
+					return checkBalanceTree(root.right, rootData);
+				else
+					return false;
+			}
+		}
+
+		return true;
+
+	}
 }
